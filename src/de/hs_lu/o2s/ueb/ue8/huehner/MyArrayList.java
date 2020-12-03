@@ -46,7 +46,7 @@ public class MyArrayList<E> extends ArrayList<E> {
 	@Override
 	public E remove(int index){
 		System.out.println("Entferne "+this.get(index)+" aus Liste an bisheriger Position"+index);
-		return this.get(index) ;
+		return super.remove(index) ;
 	}
 	
 	// Remove ein Element normales 
